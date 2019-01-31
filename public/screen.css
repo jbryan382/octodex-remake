@@ -14,7 +14,8 @@ body {
 	border: none;
 }
 header {
-	width: 45%;
+	width: 25%;
+	padding: 1rem;
 }
 
 main {
@@ -27,6 +28,7 @@ main {
 
 figure {
 	width: 40%;
+	border-bottom: 0.09rem solid #f3f3f3;
 }
 
 section {
@@ -50,4 +52,25 @@ img {
 
 footer {
 	border-top: 0.09rem solid lightgray;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbuttons {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.logolink {
+	border: none;
+	padding-top: 0.5rem;
+}
+
+.userphotos {
+	width: 35%;
+	border: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
